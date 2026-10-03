@@ -1,0 +1,48 @@
+[
+  {
+    "id": "sample_raider",
+    "name": "Perceur leger",
+    "faction": "red",
+    "role": "raider",
+    "stats": {
+      "hp": 40,
+      "damage": 12,
+      "range": 4,
+      "attackRate": 1.2,
+      "speed": 7,
+      "armor": 1,
+      "vision": 6
+    },
+    "traits": {
+      "stealth": false,
+      "detector": false,
+      "flying": false,
+      "areaDamage": false,
+      "regeneration": false,
+      "repair": false,
+      "builder": false,
+      "suicide": false,
+      "jammer": false,
+      "decoy": false
+    },
+    "cost": 60,
+    "buildTime": 4,
+    "visual": {
+      "shape": "triangle",
+      "size": 12,
+      "strokeWidth": 2,
+      "opacity": 0.96,
+      "dashed": false,
+      "halo": false,
+      "shadow": false,
+      "trail": true,
+      "antenna": false,
+      "areaRing": false,
+      "detectorRing": false,
+      "jammerRings": false,
+      "ghostCopies": 0,
+      "accent": "fast",
+      "icon": "raider"
+    }
+  }
+]

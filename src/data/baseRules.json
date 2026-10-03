@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "costModel": {
+    "minimumCost": 25,
+    "maximumCost": 520,
+    "philosophy": "Stats non lineaires, synergies dangereuses taxees, faiblesses plafonnees."
+  },
+  "map": {
+    "name": "Centre contesté",
+    "resourceMode": "passive-plus-center"
+  }
+}

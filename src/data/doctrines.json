@@ -1,0 +1,106 @@
+[
+  {
+    "id": "rush",
+    "label": "Rush",
+    "preferredRole": "raider",
+    "statBias": { "hp": 34, "damage": 10, "range": 3.2, "attackRate": 1.5, "speed": 7.2, "armor": 0.5, "vision": 6 },
+    "traitBias": {},
+    "description": "Pression rapide avant stabilisation economique."
+  },
+  {
+    "id": "turtle",
+    "label": "Turtle",
+    "preferredRole": "tank",
+    "statBias": { "hp": 150, "damage": 13, "range": 3.4, "attackRate": 0.8, "speed": 2.1, "armor": 6, "vision": 5 },
+    "traitBias": { "regeneration": true },
+    "description": "Mur lent, solide, couteux a percer."
+  },
+  {
+    "id": "swarm",
+    "label": "Swarm",
+    "preferredRole": "swarm",
+    "statBias": { "hp": 24, "damage": 7, "range": 2.5, "attackRate": 1.8, "speed": 5.8, "armor": 0, "vision": 5 },
+    "traitBias": {},
+    "description": "Saturation par unites bon marche."
+  },
+  {
+    "id": "artillery",
+    "label": "Artillery",
+    "preferredRole": "artillery",
+    "statBias": { "hp": 58, "damage": 24, "range": 9.5, "attackRate": 0.55, "speed": 2.4, "armor": 1, "vision": 9 },
+    "traitBias": { "areaDamage": true },
+    "description": "Projection de force longue portee."
+  },
+  {
+    "id": "stealth",
+    "label": "Stealth",
+    "preferredRole": "raider",
+    "statBias": { "hp": 38, "damage": 18, "range": 3.5, "attackRate": 1.05, "speed": 5.8, "armor": 0.5, "vision": 7 },
+    "traitBias": { "stealth": true },
+    "description": "Attaques discretes contre cibles fragiles."
+  },
+  {
+    "id": "anti-stealth",
+    "label": "Anti-stealth",
+    "preferredRole": "support",
+    "statBias": { "hp": 62, "damage": 8, "range": 4.2, "attackRate": 1.1, "speed": 4.6, "armor": 1, "vision": 11 },
+    "traitBias": { "detector": true },
+    "description": "Vision, detection, securisation du front."
+  },
+  {
+    "id": "economy",
+    "label": "Economy",
+    "preferredRole": "miner",
+    "statBias": { "hp": 52, "damage": 4, "range": 2, "attackRate": 0.6, "speed": 4.2, "armor": 1, "vision": 5 },
+    "traitBias": { "mining": true },
+    "description": "Avantage de ressources avant pic militaire."
+  },
+  {
+    "id": "air-control",
+    "label": "Air control",
+    "preferredRole": "air",
+    "statBias": { "hp": 48, "damage": 13, "range": 5.6, "attackRate": 1.1, "speed": 6.4, "armor": 0.5, "vision": 8 },
+    "traitBias": { "flying": true },
+    "description": "Mobilite aerienne taxee par le modele."
+  },
+  {
+    "id": "attrition",
+    "label": "Attrition",
+    "preferredRole": "tank",
+    "statBias": { "hp": 96, "damage": 10, "range": 3.8, "attackRate": 1, "speed": 3.2, "armor": 4, "vision": 6 },
+    "traitBias": { "regeneration": true },
+    "description": "Usure lente et trades favorables."
+  },
+  {
+    "id": "harassment",
+    "label": "Harassment",
+    "preferredRole": "scout",
+    "statBias": { "hp": 28, "damage": 8, "range": 4.4, "attackRate": 1.3, "speed": 7.8, "armor": 0, "vision": 9 },
+    "traitBias": { "decoy": true },
+    "description": "Menaces rapides qui forcent la dispersion."
+  },
+  {
+    "id": "siege",
+    "label": "Siege",
+    "preferredRole": "siege",
+    "statBias": { "hp": 120, "damage": 30, "range": 7.5, "attackRate": 0.45, "speed": 1.6, "armor": 4, "vision": 7 },
+    "traitBias": { "areaDamage": true },
+    "description": "Brise-bases lent et vulnerable."
+  },
+  {
+    "id": "counter-heavy",
+    "label": "Counter-heavy",
+    "preferredRole": "artillery",
+    "statBias": { "hp": 45, "damage": 32, "range": 5.4, "attackRate": 0.75, "speed": 3.8, "armor": 0.5, "vision": 7 },
+    "traitBias": { "slow": true },
+    "description": "Degats concentres contre unites blindees."
+  },
+  {
+    "id": "counter-swarm",
+    "label": "Counter-swarm",
+    "preferredRole": "support",
+    "statBias": { "hp": 70, "damage": 10, "range": 4.8, "attackRate": 1.25, "speed": 3.5, "armor": 2, "vision": 7 },
+    "traitBias": { "areaDamage": true },
+    "description": "Nettoyage de masses fragiles."
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "doctrine-engine",
+  "title": "Doctrine Engine",
+  "summary": "Deux intelligences artificielles inventent leurs unités, affrontent leurs doctrines et évoluent sous une même contrainte de budget.",
+  "type": "game-engine",
+  "status": "preview",
+  "territories": ["games", "lab"],
+  "url": "https://doctrine.games.baam.pro/",
+  "repository": "https://github.com/Soupappa/DoctrineEngine",
+  "updatedAt": "2026-10-03",
+  "tags": ["IA", "évolution", "tactique", "simulation"],
+  "preview": { "type": "none", "key": "doctrine" },
+  "presentation": { "accent": "#dfff00", "index": "02" },
+  "relations": [
+    { "type": "related-to", "target": "asymmetric-wars" }
+  ]
+}
+
